@@ -1,0 +1,105 @@
+@import "variables";
+body {
+  font-family: $fontOneLight;
+  font-size: 18px;
+  background: $bodyone;
+  color: $textone;
+}
+.content {
+  &__heading {
+    font-family: RobotoRegular;
+    color: $yellow;
+  }
+  & a {
+    color: $green;
+  }
+  &__heading-h2 {
+    color: $yellow;
+  }
+  &__heading-h3 {
+    color: $yellow;
+  }
+}
+.fontTwoLight {
+  font-family: $fontTwoLight;
+  font-size: 22px;
+  border-bottom: 2px solid $gray;
+  & h1, h2, h3 {
+    color: $yellow;
+  }
+  & a {
+    color: $green;
+  }
+
+}
+
+.fontTwoBook {
+  font-family: $fontTwoBook;
+  font-size: 22px;
+  border-bottom: 2px solid $gray;
+  & h1, h2, h3 {
+    color: $yellow;
+  }
+  & a {
+    color: $green;
+  }
+
+}
+
+.fontTwoMedium {
+  font-family: $fontTwoMedium;
+  font-size: 22px;
+  border-bottom: 2px solid $gray;
+  & h1, h2, h3 {
+    color: $yellow;
+  }
+  & a {
+    color: $green;
+  }
+
+}
+.fontTwoDemi {
+  font-family: $fontTwoDemi;
+  font-size: 22px;
+  border-bottom: 2px solid $gray;
+  & h1, h2, h3 {
+    color: $yellow;
+  }
+  & a {
+    color: $green;
+  }
+
+}
+.fontTwoBold {
+  font-family: $fontTwoBold;
+  font-size: 22px;
+  border-bottom: 2px solid $gray;
+  & h1, h2, h3 {
+    color: $yellow;
+  }
+  & a {
+    color: $green;
+  }
+
+}
+.fontOne {
+  font-family: $fontTwoLight;
+}
+
+.fontTwo {
+  font-family: $fontTwoBook;
+}
+.fontTree {
+  font-family: $fontTwoMedium;
+}
+.fontFour {
+  font-family: $fontTwoDemi;
+}
+.fontFive {
+  font-family: $fontTwoBold;
+}
+.fontSix {
+  font-family: $fontTwoExtraBold;
+}
+
+@import "mediaqueries";
